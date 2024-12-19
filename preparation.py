@@ -1,3 +1,6 @@
+import numpy as np 
+import preprocessing
+
 def create_sequences(data, seq_length):
     x, y = [], []
     for i in range(seq_length, len(data)):

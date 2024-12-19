@@ -1,4 +1,5 @@
 from sklearn.metrics import mean_squared_error
+import visualisation
 
 # Calculate MSE and RMSE
 mse = mean_squared_error(y_test_scaled, predictions)

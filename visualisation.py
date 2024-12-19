@@ -1,4 +1,5 @@
 import plotly.graph_objs as go
+import predictions
 
 # Create a plotly figure
 fig = go.Figure()

@@ -1,4 +1,6 @@
 import numpy as np
+import packages
+
 from sklearn.preprocessing import MinMaxScaler
 
 # Use only the 'Close' column for price prediction
